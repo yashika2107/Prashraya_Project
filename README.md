@@ -1,4 +1,8 @@
-# Prashraya
+<p align="center">
+	<h2 align="left"> Prashraya </h2>
+	<h4 align="left"> Your wellbeing is our Satisfaction <h4>
+</p>
+
 
 ## Functionalities
 - [ ]  Do's & Don'ts
