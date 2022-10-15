@@ -50,5 +50,14 @@ gradlew installDebug
 ```
 shell monkey -p com.hackygirls.prashraya -c android.intent.category.LAUNCHER 1
 ```
+
+	
+## Contributors
+* [Ananya Punia](https://github.com/ananyapunia28)
+* [Sakshi Singh](https://github.com/1539sakshi)
+* [Anvansh Singh](https://github.com/ryanwalker277)
+* [Arjit Goyal](https://github.com/arjit1704)
+---	
+	
 	
 
