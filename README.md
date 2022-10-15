@@ -31,7 +31,7 @@
 ## Directions to setup/install
 - Clone this repository to your local storage using Git bash:
 bash
-https://github.com/RyanWalker277/Prashraya
+https://github.com/RyanWalker277/Prashraya_Project
 
 - Open this project from Android Studio
 - Connect to an Android physical device or emulator
