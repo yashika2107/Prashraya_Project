@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.hackygirls.prashraya.MainFragment"
+        android:label="MainFragment" >
+        <action
+            android:id="@+id/action_mainFragment_to_bcancerFragment"
+            app:destination="@id/bcancerFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_ucancFragment"
+            app:destination="@id/ucancFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_pcosFragment"
+            app:destination="@id/pcosFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_pcodFragment"
+            app:destination="@id/pcodFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_reportsActivity"
+            app:destination="@id/reportsActivity" />
+        <action
+            android:id="@+id/action_mainFragment_to_chatBotFragment"
+            app:destination="@id/chatBotFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pcodFragment"
+        android:name="com.hackygirls.prashraya.fragments.PcodFragment"
+        android:label="fragment_pcod"
+        tools:layout="@layout/fragment_pcod" >
+        <action
+            android:id="@+id/action_pcodFragment_to_pcodSignsFragment"
+            app:destination="@id/pcodSignsFragment" />
+        <action
+            android:id="@+id/action_pcodFragment_to_pcosDoFragment"
+            app:destination="@id/pcosDoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pcosFragment"
+        android:name="com.hackygirls.prashraya.fragments.PcosFragment"
+        android:label="fragment_pcos"
+        tools:layout="@layout/fragment_pcos" >
+        <action
+            android:id="@+id/action_pcosFragment_to_pcosDoFragment2"
+            app:destination="@id/pcosDoFragment2" />
+        <action
+            android:id="@+id/action_pcosFragment_to_pcosSignsFragment"
+            app:destination="@id/pcosSignsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ucancFragment"
+        android:name="com.hackygirls.prashraya.fragments.UcancFragment"
+        android:label="fragment_ucanc"
+        tools:layout="@layout/fragment_ucanc" >
+        <action
+            android:id="@+id/action_ucancFragment_to_udoFragment"
+            app:destination="@id/udoFragment" />
+        <action
+            android:id="@+id/action_ucancFragment_to_USignsFragment"
+            app:destination="@id/USignsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bcancerFragment"
+        android:name="com.hackygirls.prashraya.fragments.BcancerFragment"
+        android:label="fragment_bcancer"
+        tools:layout="@layout/fragment_bcancer" >
+        <action
+            android:id="@+id/action_bcancerFragment_to_bdoFragment"
+            app:destination="@id/bdoFragment" />
+        <action
+            android:id="@+id/action_bcancerFragment_to_BCancFragment"
+            app:destination="@id/BCancFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pcosDoFragment"
+        android:name="com.hackygirls.prashraya.pcod.PcosDoFragment"
+        android:label="fragment_pcod_do"
+        tools:layout="@layout/fragment_pcod_do" />
+    <fragment
+        android:id="@+id/pcodSignsFragment"
+        android:name="com.hackygirls.prashraya.pcod.PcodSignsFragment"
+        android:label="fragment_pcod_signs"
+        tools:layout="@layout/fragment_pcod_signs" />
+    <fragment
+        android:id="@+id/pcosDoFragment2"
+        android:name="com.hackygirls.prashraya.pcos.PcosDoFragment"
+        android:label="fragment_pcos_do"
+        tools:layout="@layout/fragment_pcos_do" />
+    <fragment
+        android:id="@+id/pcosSignsFragment"
+        android:name="com.hackygirls.prashraya.pcos.PcosSignsFragment"
+        android:label="fragment_pcos_signs"
+        tools:layout="@layout/fragment_pcos_signs" />
+    <fragment
+        android:id="@+id/udoFragment"
+        android:name="com.hackygirls.prashraya.ucancer.UdoFragment"
+        android:label="fragment_udo"
+        tools:layout="@layout/fragment_udo" />
+    <fragment
+        android:id="@+id/USignsFragment"
+        android:name="com.hackygirls.prashraya.ucancer.USignsFragment"
+        android:label="fragment_u_signs"
+        tools:layout="@layout/fragment_u_signs" />
+    <fragment
+        android:id="@+id/bdoFragment"
+        android:name="com.hackygirls.prashraya.bcancer.BdoFragment"
+        android:label="fragment_bdo"
+        tools:layout="@layout/fragment_bdo" />
+    <fragment
+        android:id="@+id/BCancFragment"
+        android:name="com.hackygirls.prashraya.bcancer.BCancFragment"
+        android:label="fragment_b_signs"
+        tools:layout="@layout/fragment_b_signs" />
+    <activity
+        android:id="@+id/reportsActivity"
+        android:name="com.hackygirls.prashraya.ReportsActivity"
+        android:label="ReportsActivity" />
+    <fragment
+        android:id="@+id/chatBotFragment"
+        android:name="com.hackygirls.prashraya.chatbot.ChatBotFragment"
+        android:label="fragment_chat_bot"
+        tools:layout="@layout/fragment_chat_bot" />
+</navigation>

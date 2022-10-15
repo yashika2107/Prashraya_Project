@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_grph"
+    app:startDestination="@id/sgnupFragment">
+
+    <fragment
+        android:id="@+id/sgnupFragment"
+        android:name="com.hackygirls.prashraya.details.SgnupFragment"
+        android:label="SgnupFragment" >
+        <action
+            android:id="@+id/action_sgnupFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.hackygirls.prashraya.details.DetailsFragment"
+        android:label="detailsFragment">
+        <argument
+            android:name="email"
+            app:argType="string"
+            android:defaultValue="email" />
+        <argument
+            android:name="password"
+            app:argType="string"
+            android:defaultValue="password" />
+        <argument
+            android:name="confirmpassword"
+            app:argType="string"
+            android:defaultValue="confirmpassword" />
+    </fragment>
+</navigation>

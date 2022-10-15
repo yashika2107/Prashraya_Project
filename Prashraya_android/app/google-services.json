@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "951932309775",
+    "project_id": "prashraya-a2839",
+    "storage_bucket": "prashraya-a2839.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:951932309775:android:731dc5bb85bca80742ae7a",
+        "android_client_info": {
+          "package_name": "com.hackygirls.prashraya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "951932309775-41983tkpf4j31le4j4qilrtccbr7fuv9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcgAW4xz2TgNSjxaAk_B22HPa3gKxJ_d8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "951932309775-41983tkpf4j31le4j4qilrtccbr7fuv9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

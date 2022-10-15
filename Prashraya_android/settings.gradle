@@ -1,0 +1,23 @@
+import org.gradle.api.initialization.resolve.RepositoriesMode
+
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+
+    repositories {
+        google()
+        repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+        mavenCentral()
+        jcenter() // Warning: this repository is going to shut down soon
+        maven { url 'https://jitpack.io' }
+    }
+}
+rootProject.name = "Prashraya"
+include ':app'
+include ':unityLibrary'
+include ':launcher'
