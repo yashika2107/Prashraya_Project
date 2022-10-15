@@ -60,4 +60,6 @@ shell monkey -p com.hackygirls.prashraya -c android.intent.category.LAUNCHER 1
 ---	
 	
 	
+## Presentation 
 
+For the detailed view of our project, [click here](https://www.canva.com/design/DAFHuTMEE7Q/q8aFE5fanSBwQfeo01NUnw/edit?utm_content=DAFHuTMEE7Q&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton#)
