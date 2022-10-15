@@ -9,6 +9,15 @@
 - [ ]  Appointment Booking
 - [ ]  Anonymous Chat Room
 
+-------------
 
-
+## Tech Stack
+- [ ]  Android Native (Kotlin)
+- [ ]  Blockchain - Ethereum
+- [ ]  AR_Core
+- [ ]  Socket.io
+- [ ]  Dialogflow
+- [ ]  Django
+- [ ]  AWS
+- [ ]  IPFS
 
